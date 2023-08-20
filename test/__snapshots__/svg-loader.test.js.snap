@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`converts svg to compionent 1`] = `
+"import _defineProperty from "@babel/runtime/helpers/defineProperty";
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+import React from 'react';
+import { jsx as _jsx } from "react/jsx-runtime";
+import { jsxs as _jsxs } from "react/jsx-runtime";
+var SvgComponent = function SvgComponent(props) {
+  return /*#__PURE__*/_jsx("svg", _objectSpread(_objectSpread({}, props), {}, {
+    children: /*#__PURE__*/_jsxs("g", {
+      fill: "none",
+      "fill-rule": "evenodd",
+      children: [/*#__PURE__*/_jsx("path", {
+        d: "M21-3v24H-3V-3h24Zm-2 2H-1v20h20V-1Z"
+      }), /*#__PURE__*/_jsx("path", {
+        fill: "#817E7E",
+        d: "M9 .1a8.9 8.9 0 1 1 0 17.8A8.9 8.9 0 0 1 9 .1Zm0 1.8a7.1 7.1 0 1 0 0 14.2A7.1 7.1 0 0 0 9 1.9Zm0 2.7a.9.9 0 0 1 .893.787L9.9 5.5v2.6h2.6a.9.9 0 0 1 .113 1.793L12.5 9.9H9.9v2.6a.9.9 0 0 1-1.793.113L8.1 12.5V9.9H5.5a.9.9 0 0 1-.113-1.793L5.5 8.1h2.6V5.5a.9.9 0 0 1 .9-.9Z"
+      })]
+    })
+  }));
+};
+SvgComponent.defaultProps = {
+  height: '18px',
+  width: '18px',
+  viewBox: '0 0 18 18'
+};
+export default SvgComponent;"
+`;
+
+exports[`returns image with data url base64 1`] = `
+"import _defineProperty from "@babel/runtime/helpers/defineProperty";
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+import React from 'react';
+import { jsx as _jsx } from "react/jsx-runtime";
+var ImgComponent = function ImgComponent(props) {
+  return /*#__PURE__*/_jsx("img", _objectSpread({
+    src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+SWNvbnMvQWN0aW9uL0FkZC1DaXJjbGU8L3RpdGxlPgogICAgPGcgaWQ9IvCfk7ctSWNvbnMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJJY29ucyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg3NS4wMDAwMDAsIC0yODAuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODcyLjAwMDAwMCwgMjc3LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTI0LDAgTDI0LDI0IEwwLDI0IEwwLDAgTDI0LDAgWiBNMjIsMiBMMiwyIEwyLDIyIEwyMiwyMiBMMjIsMiBaIiBpZD0iQm91bmRhcnkiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMiwzLjEgQzE2LjkxNTMzNDMsMy4xIDIwLjksNy4wODQ2NjU3MyAyMC45LDEyIEMyMC45LDE2LjkxNTMzNDMgMTYuOTE1MzM0MywyMC45IDEyLDIwLjkgQzcuMDg0NjY1NzMsMjAuOSAzLjEsMTYuOTE1MzM0MyAzLjEsMTIgQzMuMSw3LjA4NDY2NTczIDcuMDg0NjY1NzMsMy4xIDEyLDMuMSBaIE0xMiw0LjkgQzguMDc4Nzc4MjgsNC45IDQuOSw4LjA3ODc3ODI4IDQuOSwxMiBDNC45LDE1LjkyMTIyMTcgOC4wNzg3NzgyOCwxOS4xIDEyLDE5LjEgQzE1LjkyMTIyMTcsMTkuMSAxOS4xLDE1LjkyMTIyMTcgMTkuMSwxMiBDMTkuMSw4LjA3ODc3ODI4IDE1LjkyMTIyMTcsNC45IDEyLDQuOSBaIE0xMiw3LjYgQzEyLjQ1ODgyMTIsNy42IDEyLjgzNzQ1MTgsNy45NDMzMzY2NyAxMi44OTI5ODc3LDguMzg3MTA1OTEgTDEyLjksOC41IEwxMi45LDExLjEgTDE1LjUsMTEuMSBDMTUuOTk3MDU2MywxMS4xIDE2LjQsMTEuNTAyOTQzNyAxNi40LDEyIEMxNi40LDEyLjQ1ODgyMTIgMTYuMDU2NjYzMywxMi44Mzc0NTE4IDE1LjYxMjg5NDEsMTIuODkyOTg3NyBMMTUuNSwxMi45IEwxMi45LDEyLjkgTDEyLjksMTUuNSBDMTIuOSwxNS45OTcwNTYzIDEyLjQ5NzA1NjMsMTYuNCAxMiwxNi40IEMxMS41NDExNzg4LDE2LjQgMTEuMTYyNTQ4MiwxNi4wNTY2NjMzIDExLjEwNzAxMjMsMTUuNjEyODk0MSBMMTEuMSwxNS41IEwxMS4xLDEyLjkgTDguNSwxMi45IEM4LjAwMjk0MzczLDEyLjkgNy42LDEyLjQ5NzA1NjMgNy42LDEyIEM3LjYsMTEuNTQxMTc4OCA3Ljk0MzMzNjY3LDExLjE2MjU0ODIgOC4zODcxMDU5MSwxMS4xMDcwMTIzIEw4LjUsMTEuMSBMMTEuMSwxMS4xIEwxMS4xLDguNSBDMTEuMSw4LjAwMjk0MzczIDExLjUwMjk0MzcsNy42IDEyLDcuNiBaIiBpZD0icGx1cy1pbi1jaXJjbGUiIGZpbGw9IiM4MTdFN0UiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
+  }, props));
+};
+export default ImgComponent;"
+`;
+
+exports[`sets currentColor option 1`] = `
+"import _defineProperty from "@babel/runtime/helpers/defineProperty";
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+import React from 'react';
+import { jsx as _jsx } from "react/jsx-runtime";
+import { jsxs as _jsxs } from "react/jsx-runtime";
+var SvgComponent = function SvgComponent(props) {
+  return /*#__PURE__*/_jsx("svg", _objectSpread(_objectSpread({}, props), {}, {
+    children: /*#__PURE__*/_jsxs("g", {
+      fill: "none",
+      "fill-rule": "evenodd",
+      children: [/*#__PURE__*/_jsx("path", {
+        d: "M21-3v24H-3V-3h24Zm-2 2H-1v20h20V-1Z"
+      }), /*#__PURE__*/_jsx("path", {
+        fill: "currentColor",
+        d: "M9 .1a8.9 8.9 0 1 1 0 17.8A8.9 8.9 0 0 1 9 .1Zm0 1.8a7.1 7.1 0 1 0 0 14.2A7.1 7.1 0 0 0 9 1.9Zm0 2.7a.9.9 0 0 1 .893.787L9.9 5.5v2.6h2.6a.9.9 0 0 1 .113 1.793L12.5 9.9H9.9v2.6a.9.9 0 0 1-1.793.113L8.1 12.5V9.9H5.5a.9.9 0 0 1-.113-1.793L5.5 8.1h2.6V5.5a.9.9 0 0 1 .9-.9Z"
+      })]
+    })
+  }));
+};
+SvgComponent.defaultProps = {
+  height: '18px',
+  width: '18px',
+  viewBox: '0 0 18 18'
+};
+export default SvgComponent;"
+`;
