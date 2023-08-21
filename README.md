@@ -8,7 +8,7 @@ yarn add -D light-svg-loader
 
 ## Webpack using
 
-Add to the webpack congig:
+Add to the webpack config:
 
 ```js
     module: {
@@ -61,7 +61,7 @@ You can set next options in to the loader:
   {
     loader: "light-svg-loader",
     options: {
-      // it will reset all hex colors, and set currentColor. It will not work if transformIntoDataURI is true
+      // It will reset all HEX colors, and set fill="currentColor". It will NOT work if transformIntoDataURI is true
       applyCurrentColor: true,
       // It will return component as <img src="data:image/svg+xml;base64..." />. 
       transformIntoDataURI: true 
