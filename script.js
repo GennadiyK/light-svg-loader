@@ -1,1 +1,0 @@
-const helloNpm = require('light-svg-loader')
