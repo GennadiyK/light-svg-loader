@@ -1,6 +1,6 @@
 {
   "name": "light-svg-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert svg file in to the React component with Webpack.",
   "main": "index.min.js",
   "repository": "https://github.com/GennadiyK/light-svg-loader.git",
